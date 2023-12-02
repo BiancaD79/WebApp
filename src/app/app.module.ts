@@ -55,7 +55,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatBadgeModule,
     MatSnackBarModule,
     MatSlideToggleModule,
-    HttpClientModule
+    HttpClientModule,
+    
   ],
   providers: [CartService, StoreService],
   bootstrap: [AppComponent]

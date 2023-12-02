@@ -10,7 +10,7 @@ export class ProductsHeaderComponent {
   @Output() columnsCountChange = new EventEmitter<number>();
   @Output() itemsCountChange = new EventEmitter<number>();
   @Output() sortChange = new EventEmitter<string>();
-  sort:string = 'desc';
+  sort:string = 'Desc';
   itemsShowCount:number = 12;
 
   onSortUpdate(newSort:string):void{
